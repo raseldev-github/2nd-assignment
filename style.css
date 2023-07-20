@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300&family=Open+Sans:wght@400;700;800&family=Oswald:wght@200;300&family=Poppins:wght@400;500;600;700;800&display=swap');
+
+.header-container {
+    width:100%;
+    margin:auto;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* nave section */
+.nav-container {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    background-color: #fff;
+    padding:2em;
+    margin-bottom:3em;
+}
+
+.nav-content-container {
+    align-items: center;
+}
+
+.nav-content-container ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-content-container li {
+    list-style-type: none;
+    margin-right: 1.5em;
+    color: #3C354F;
+}
+
+.nav-content-container li #youtube {
+    color: #F61C0D;
+}
+
+.nav-logo-container nav-heading {
+    color: #0B0223;
+
+}
+
+.nav-logo-container h3 span {
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.nav-logo-container img {
+    margin-right: 0.7em;
+}
+
+.nav-logo-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.nav-content-container .contenticon {
+    background-color: #3C354F;
+    color: white;
+    padding: 5px;
+    border-radius: 8px;
+}
+
+/* nav section compleate */
+
+/* banner-section start */
+.banner-container {
+    width: 68%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.banner-content {
+    width: 50%;
+
+}
+
+.banner-img {
+    width: 50%;
+}
+
+.banner-hone {
+    font-size: 2rem;
+    color: #0B0223;
+    margin-bottom: 10px;
+}
+
+.banner-htwo {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    font-weight: 800;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.banner-desc {
+    color: #534C64;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.banner-content .btn {
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    border: none;
+
+}
+
+.banner-content .btntwo {
+    background-color: #4EC5F7;
+
+}
+
+.banner-img img {
+    width: 500px;
+}
+  /* banner section complete */
+  
+
+
+
+@media screen and (max-width:425px) {
+    .nav-container {
+         flex-direction: column;
+         gap: 20px;
+    }
+
+    .nav-content-container ul {
+         flex-direction: column;
+         gap: 15px;
+    }
+
+
+}
