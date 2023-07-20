@@ -392,10 +392,10 @@ footer{
   .banner-container{
      flex-direction:column-reverse;
     
-     .banner-img img{
-        width: 100%;
-    }
-  }
+   }
+  .banner-img img{
+    width: 100%;
+}
 
 .card-img{
       flex-direction: column;
@@ -450,9 +450,59 @@ footer{
        .nav-container{
           flex-direction: column;
           gap:50px;
+          
        }
        .nav-content-container ul {
         flex-direction: column;
         gap: 15px;
+}
+.banner-container{
+    flex-direction:column;
+   
+  }
+  .card-img{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap:50px;
+  }
+  .sectionone-container{
+      flex-direction: column;
+  }
+  .download-img .boro-pic{
+    width:80%;
+    height:80%;
+}
+.choto-pik img{
+  width:30%;
+  position:relative;
+ left:0px;
+ top:-110px;
+  
+}
+.sectiontwo-container{
+    width:30rem;
+    margin:auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 2fr);
+}
+.footer-container{
+    width:100%;
+    flex-direction: column;
+}
+.footer-about{
+      width:50%;
+
+      margin:auto;
+       display: grid;
+       grid-template-columns: repeat(3, 1fr);
+       gap:40px;
+       padding:40px;
+      
+}
+.footer-about p{
+       font-size:15px;
+      
 }
 }
