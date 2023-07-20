@@ -7,8 +7,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300&family=Open+Sans:wght@400;700;800&family=Oswald:wght@200;300&family=Poppins:wght@400;500;600;700;800&display=swap');
 
 .header-container {
-    width:100%;
-    margin:auto;
+    width: 100%;
+    margin: auto;
     font-family: 'Lato', sans-serif;
     font-family: 'Open Sans', sans-serif;
     font-family: 'Oswald', sans-serif;
@@ -17,12 +17,14 @@
 
 /* nave section */
 .nav-container {
+    width: 85%;
+    margin: auto;
     display: flex;
-    justify-content:space-around;
+    justify-content: space-between;
     align-items: center;
     background-color: #fff;
-    padding:2em;
-    margin-bottom:3em;
+    padding: 2em;
+    margin-bottom: 3em;
 }
 
 .nav-content-container {
@@ -78,22 +80,14 @@
 
 /* banner-section start */
 .banner-container {
-    width: 68%;
-    margin: 0 auto;
+    width: 80%;
+    margin: auto;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
 
 }
 
-.banner-content {
-    width: 50%;
-
-}
-
-.banner-img {
-    width: 50%;
-}
 
 .banner-hone {
     font-size: 2rem;
@@ -135,20 +129,237 @@
 .banner-img img {
     width: 500px;
 }
-  /* banner section complete */
+
+/* banner section complete */
+
+/* main section start */
+/* card section start */
+.main-container {
+    width: 100%;
+
+}
+
+.card-container {}
+
+.card-content {
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.card-heading {
+    color: #0B0223;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.funny-card {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.card-content p {
+    color: #534C64;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.card-img {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    gap: 1em;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.card p {
+    margin-top: 15px;
+
+}
+
+.card-img .card {
+    color: #534C64;
+    font-family: Work Sans;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+/* compleate card section */
+/* start downloan section */
+.sectionone-container {
+    width: 100%;
+    margin: auto;
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.download-container h2 {
+    font-family: Work Sans;
+    font-size: 48px;
+}
+.download-img img{
+    width: 80%;
+}
+.download-img{
+    text-align:right;
+}
+.download-container span {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.download-container p {
+    color: #534C64;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.download-img img {
+    width: 80%;
+}
+.download-img .relative{
+        width:200px;
+        height:200px;
+        position: relative;
+        top:-120px;
+        left:-550px;
+}
+      /* compleate download section */
+
+        /* start sectiontwo-container */
+        .sectiontwo-container{
+            width:80%;
+            margin:auto;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap:wrap;
+            padding:50px;
+          
+            background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+
+        }
+     .div{
+         display: flex;
+         padding:20px;
+         justify-content: flex-start;
+         align-items: center;
+         gap:10px;
+
+     }
+     .div p{
+        color: #0B0223;
+        font-family: Work Sans;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+     }
+.div:hover{
+       border:2px solid red;
+       border-radius:30px;
+       background-color: slategray;
+     
+       
+}
+.div p:hover{
+       color:#FF42A5;
+}
+
+
+
+
+
+                /* footer section */
+.footer-container{
+     width: 60%;
+     margin: 80px auto;
+     padding:50px;
+     
+}
+footer{
+    width:100%;
+    background: #0B0223;
+}
+.footer-logo{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-bottom:50px;
+     gap:15px;
+     color:white;
+     align-items: center;
+}
+.footer-about{ 
+    display:flex;
+    margin-bottom:50px;
+    justify-content: space-evenly;
+    color:white;
+    font-weight: 600;
+}
+.icon-container span{
+       font-size: 30px;
+        
+}
+.icon-container{
+     display:flex;
+     justify-content: center;
+     gap:50px;
+     color:white;
+     margin-bottom:50px;
+}
+.terms-container p{
+
+    color: rgba(255, 255, 255, 0.60);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 500;
+}
+.terms-container{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap:50px;
+     margin-bottom:20px;
+}
+
+.copyright{
   
-
-
+    color: rgba(255, 255, 255, 0.60);
+    font-family: Work Sans;
+    text-align:center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+}
 
 @media screen and (max-width:425px) {
     .nav-container {
-         flex-direction: column;
-         gap: 20px;
+        flex-direction: column;
+        gap: 20px;
     }
 
     .nav-content-container ul {
-         flex-direction: column;
-         gap: 15px;
+        flex-direction: column;
+        gap: 15px;
     }
 
 
