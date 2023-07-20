@@ -134,13 +134,10 @@
 
 /* main section start */
 /* card section start */
-.main-container {
-    width: 100%;
-
+.card-container{
+    width: 70%;
+    margin: auto;
 }
-
-.card-container {}
-
 .card-content {
     margin-top: 60px;
     margin-bottom: 30px;
@@ -153,6 +150,7 @@
     font-weight: 700;
     text-align: center;
 }
+
 
 .funny-card {
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
@@ -178,10 +176,13 @@
     width: 70%;
     margin: auto;
     display: flex;
-    gap: 1em;
-    justify-content: space-evenly;
+    gap: 40px;
+    justify-content: center;
     align-items: center;
-
+}
+.card img{
+    height: 250px;
+    width: 250px;
 }
 
 .card p {
@@ -198,24 +199,24 @@
 
 /* compleate card section */
 /* start downloan section */
-.sectionone-container {
-    width: 100%;
-    margin: auto;
-    margin-top: 80px;
+.sectionone-container{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    gap: 50px;
+    margin-top: 40px;
 }
 
 .download-container h2 {
     font-family: Work Sans;
     font-size: 48px;
 }
-.download-img img{
-    width: 80%;
+.download-img .boro-pic{
+    width: 450px;
+    height: 450px;
 }
 .download-img{
-    text-align:right;
+    text-align: center;
 }
 .download-container span {
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
@@ -235,13 +236,14 @@
 .download-img img {
     width: 80%;
 }
-.download-img .relative{
-        width:200px;
-        height:200px;
-        position: relative;
-        top:-120px;
-        left:-550px;
+.choto-pik img{
+    height: 180px;
+    width: 150px;
+    position: relative;
+    left: 680px;
+    top: -120px;
 }
+
       /* compleate download section */
 
         /* start sectiontwo-container */
@@ -249,11 +251,8 @@
             width:80%;
             margin:auto;
             display: flex;
-            justify-content: space-around;
-            align-items: center;
             flex-wrap:wrap;
-            padding:50px;
-          
+            padding:20px;         
             background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
 
         }
@@ -262,13 +261,16 @@
          padding:20px;
          justify-content: flex-start;
          align-items: center;
+         justify-content: center;
          gap:10px;
-
+     }
+     .div img{
+        width: 40px;
      }
      .div p{
         color: #0B0223;
         font-family: Work Sans;
-        font-size: 20px;
+        font-size: 15px;
         font-style: normal;
         font-weight: 600;
         line-height: normal;
@@ -291,7 +293,7 @@
                 /* footer section */
 .footer-container{
      width: 60%;
-     margin: 80px auto;
+     margin: 60px auto 0px;
      padding:50px;
      
 }
@@ -356,11 +358,91 @@ footer{
         flex-direction: column;
         gap: 20px;
     }
+    .banner-img img{
+        width: 100%;
+    }
 
     .nav-content-container ul {
         flex-direction: column;
         gap: 15px;
     }
+  .banner-container{
+     flex-direction:column-reverse;
+     
 
-
+  }
+.card-img{
+      flex-direction: column;
 }
+.sectionone-container{
+     flex-direction: column;
+}
+.download-img .boro-pic{
+      width:80%;
+      height:80%;
+}
+.choto-pik img{
+    width:30%;
+    position:relative;
+   left:0px;
+   top:-110px;
+    
+}
+.sectiontwo-container{
+      width:21.5rem;
+      margin:auto;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+     
+}
+.div p{
+     font-size:10px;
+}
+.footer-container{
+    width:100%;
+          flex-direction: column;
+}
+.footer-about{
+      
+       display: grid;
+       grid-template-columns: repeat(3, 1fr);
+       gap:30px;
+      
+}
+.footer-about p{
+       font-size:15px;
+      
+}
+.terms-container{
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+      gap:30px;
+}
+}
+/* .footer-container{
+     width: 60%;
+     margin: 80px auto;
+     padding:50px;
+     
+}
+footer{
+    width:100%;
+    background: #0B0223;
+}
+.footer-logo{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-bottom:50px;
+     gap:15px;
+     color:white;
+     align-items: center;
+}
+.footer-about{ 
+    display:flex;
+    margin-bottom:50px;
+    justify-content: space-evenly;
+    color:white;
+    font-weight: 600;
+} */
